@@ -1,0 +1,36 @@
+.side-bar-icon{
+    height: 25px;
+}
+
+p{
+   font-size: 12px;
+ }
+
+.side-bar{
+    left: 0px;
+    top: 54px;
+    position: fixed;
+   bottom: 0px;
+   width: 80px;
+   border-right-width: 3px black;
+   background-color: white;
+   
+}
+.side-bar-flex{
+     display: flex;   
+     flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    padding-bottom: 10px ;
+    padding-top: 15px;
+    width: 100%;
+    background-color: white; 
+    border: none;
+    cursor: pointer;
+}
+
+.side-bar-flex:hover{
+   background-color: lightgrey; 
+}
+
+

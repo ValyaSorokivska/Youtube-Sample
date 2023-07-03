@@ -1,0 +1,141 @@
+.upper-bar-icon{
+width:30px;
+cursor: pointer;
+padding: 10px;
+}
+.youtube-logo{
+    width: 90px;
+    }
+ 
+.upper-bar{
+    left: 0px;
+    top:0px;
+    right: 0px;
+   position: fixed;
+   display: flex;
+   align-items: center; 
+   justify-content: space-between;
+   background-color: white;
+   border-bottom: solid 1px lightgray;
+}
+
+.left-side-upper-bar{
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;
+    width: 170px; 
+}
+
+.center-side-upper-bar{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    max-width: 470px;
+}
+
+
+.right-side-upper-bar{
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;
+    padding-right: 10px;
+  width: 200px; 
+    
+}
+
+.button-upper-bar-icon{
+    height: 26px;
+    cursor: pointer;
+    }
+
+.button-voice-search-icon{
+    height: 30px;
+    width: 30px;
+   border: none;
+   border-radius:50%;
+   margin-left: 10px;
+   display: flex;
+   justify-content: center;
+   position: relative;
+    }
+
+    .button-voice-search-icon .additional{
+        bottom: -55px; 
+     }
+
+    .right-side-upper-bar-upload .additional,
+    .right-side-upper-bar-youtube-apps .additional,
+    .notifications .additional,
+    .search-icon .additional{
+        bottom: -45px; 
+     }
+
+    .button-voice-search-icon .additional,
+    .right-side-upper-bar-upload .additional,
+    .right-side-upper-bar-youtube-apps .additional,
+    .notifications .additional,
+    .search-icon .additional
+    {
+        opacity: 0;
+        position: absolute;
+        margin: 5px;
+        padding: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        white-space: nowrap;
+        background-color: gray;
+        border-radius: 5%;
+        color:white;
+        font-size: 12px;   
+     }
+
+     .button-voice-search-icon:hover .additional,
+    .right-side-upper-bar-upload:hover .additional,
+    .right-side-upper-bar-youtube-apps:hover .additional,
+    .notifications:hover .additional,
+    .search-icon:hover .additional{
+        opacity: 0.9;
+ }
+
+.input{
+padding-left: 10px;
+font-size: 15px;
+height:38px ;
+width: 0;
+flex: 1;
+cursor: pointer;
+ }
+
+.search-button-and-input{
+    border: solid 1px lightgrey;
+ }
+
+ .search-icon{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 60px;
+    background-color: rgb(246, 239, 239);
+ }
+ .search-icon:hover{
+    background-color: rgb(227, 226, 226);
+ }
+
+ .notifications{
+    position: relative;
+ }
+ .notifications-amount{
+    position: absolute;
+    background-color: rgb(189, 19, 19);
+    font-size: 11px;
+    color:white;
+    padding-top: 3%;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 50%;
+    left:50%;
+    bottom: 50%;
+ }
+
+
+
+
